@@ -1,0 +1,16 @@
+---
+import { SITE } from '~/utils/config';
+import { Image } from 'astro:assets';
+import Logo from '~/assets/images/logo.svg';
+---
+
+<!-- <span
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+>
+  Madrassoft
+</span> -->
+<span
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+>
+  <Image src={Logo} alt="logo" width="150" />
+</span>
